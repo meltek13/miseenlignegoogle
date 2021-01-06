@@ -1,0 +1,280 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+li {
+  padding-left: 15px;
+}
+
+a li {
+  display: flex;
+  justify-content: baseline;
+  align-content: flex-end;
+}
+
+.sous {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: none;
+  border: 1px solid #dfe1e5;
+  position: absolute;
+  width: 280px;
+  height: 487px;
+  margin-left: -215px;
+  margin-top: 22px;
+  background: white;
+  box-shadow: 2px 2px 4px #eaeaea, -2px -2px 4px #eaeaea;
+  border-radius: 4px;
+  overflow: scroll;
+  justify-content: center;
+}
+
+.sous li {
+  height: 68px;
+  width: 59px;
+  margin: 10px 5px;
+}
+
+.sous li a {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-right: 15px;
+}
+.deroulant {
+  background: url(menu.png);
+  width: 6px;
+  margin-left: 13px;
+}
+
+.deroulant:hover {
+  background: url(menunoir.png);
+}
+
+.deroulant:hover .sous {
+  display: flex;
+}
+
+.Compte {
+  background: url(nav_menu.png);
+  background-position: 5px -2691px;
+}
+.Recherche {
+  background: url(nav_menu.png);
+  background-position: 5px -690px;
+}
+.Maps {
+  background: url(nav_menu.png);
+  background-position: 5px -138px;
+}
+.YouTube {
+  background: url(nav_menu.png);
+  background-position: 5px -1860px;
+}
+.Play {
+  background: url(nav_menu.png);
+  background-position: 5px -1035px;
+}
+.Actualités {
+  background: url(nav_menu.png);
+  background-position: 5px -414px;
+}
+.Gmail {
+  background: url(nav_menu.png);
+  background-position: 5px -1449px;
+}
+.Meet {
+  background: url(nav_menu.png);
+  background-position: 5px -2001px;
+}
+.Contacts {
+  background: url(nav_menu.png);
+  background-position: 5px -1518px;
+}
+.Drive {
+  background: url(nav_menu.png);
+  background-position: 5px -1380px;
+}
+.Agenda {
+  background: url(nav_menu.png);
+  background-position: 5px -2829px;
+}
+.Traduction {
+  background: url(nav_menu.png);
+  background-position: 5px -828px;
+}
+.Photo {
+  background: url(nav_menu.png);
+  background-position: 5px -2760px;
+}
+.Duo {
+  background: url(nav_menu.png);
+  background-position: 5px -2345px;
+}
+.Shopping {
+  background: url(nav_menu.png);
+  background-position: 5px -2208px;
+}
+.Docs {
+  background: url(nav_menu.png);
+  background-position: 5px -2620px;
+}
+.Sheets {
+  background: url(nav_menu.png);
+  background-position: 5px -276px;
+}
+.Slides {
+  background: url(nav_menu.png);
+  background-position: 5px -1242px;
+}
+.Livres {
+  background: url(nav_menu.png);
+  background-position: 5px -2415px;
+}
+.Blogger {
+  background: url(nav_menu.png);
+  background-position: 5px -966px;
+}
+.Hangouts {
+  background: url(nav_menu.png);
+  background-position: 5px -1794px;
+}
+.Keep {
+  background: url(nav_menu.png);
+  background-position: 5px -897px;
+}
+
+.Jamboard {
+  background: url(nav_menu.png);
+  background-position: 5px -1932px;
+}
+
+.Classroom {
+  background: url(nav_menu.png);
+  background-position: 5px -2553px;
+}
+.Earth {
+  background: url(nav_menu.png);
+  background-position: 5px -2277px;
+}
+.Collections {
+  background: url(nav_menu.png);
+  background-position: 5px -759px;
+}
+.ArtsCulture {
+  background: url(nav_menu.png);
+  background-position: 5px -1173px;
+}
+.Googleads {
+  background: url(nav_menu.png);
+  background-position: 5px -552px;
+}
+.Podcasts {
+  background: url(nav_menu.png);
+  background-position: 5px -1311px;
+}
+.Stadia {
+  background: url(nav_menu.png);
+  background-position: 5px -2139px;
+}
+
+.connexion {
+  background: #4885f6;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 4px;
+}
+
+.recherche {
+  padding: 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sous li:last-child {
+  border: 1px solid #dadce0;
+  border-radius: 2px;
+  flex: 3;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  padding-top: -40px;
+}
+
+.search :hover {
+  box-shadow: 2px 2px 4px #eaeaea, -2px -2px 4px #eaeaea;
+}
+
+button {
+  border-radius: 5px;
+  border: 0;
+  margin: 0px 5px;
+  padding: 13px 17px;
+  background: #f8f9fa;
+}
+
+input {
+  background: url(micro.png);
+  background-repeat: no-repeat;
+  background-position: right 7px top 7px;
+  width: 540px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 1px#dfe1e5;
+  padding-left: 45px;
+  outline:none;
+  font-size: 16px;
+}
+
+.loupe {
+  transform: translate(-110px, -128px);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f2f2f2;
+  margin-left: -10px;
+  color: #70757a;
+}
+
+footer a {
+  color: #70757a;
+}
+
+.footer1 {
+  border-top: 1px solid #dadce0;
+  padding: 8px 0 8px 27px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: 1px solid #dadce0;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+
+.footer_left a {
+  padding: 0 0 0 27px;
+}
+
+.footer_right a {
+  padding: 0 27px 0 0;
+}
